@@ -4,7 +4,10 @@
   "description": "Slides for introducing hacktoberfest 2022",
   "scripts": {
     "start": "node-sass --watch theme -o theme & reveal-md slides.md -w --theme theme/custom.css",
-    "build": "node-sass theme/custom.scss -o theme && reveal-md slides.md --static build --static-dirs=assets --theme theme/custom.css"
+    "build": "npm run scss && npm run compile && npm run favicon",
+    "scss": "node-sass theme/custom.scss -o theme && reveal-md slides.md --static build --static-dirs=assets --theme theme/custom.css --assets-dir assets",
+    "compile": "reveal-md slides.md --static build --static-dirs=assets --theme theme/custom.css --assets-dir assets",
+    "favicon": "cp favicon.ico build/favicon.ico"
   },
   "keywords": [
     "hacktoberfest",
