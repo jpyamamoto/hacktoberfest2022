@@ -1,0 +1,77 @@
+/**
+ * Custom theme following the Hacktoberfest 2022 style, for reveal.js
+ *
+ * Copyright (C) 2022 Juan Pablo Yamamoto, https://jpyamamoto.com/
+ */
+
+
+// Default mixins and settings -----------------
+@import "./template/mixins";
+@import "./template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(https://fonts.googleapis.com/css?family=JetBrains+Mono:wght@500);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+
+// Template Colors -----------------------------
+$primary1: #E5E1E6;
+$primary2: #170F1E;
+
+$secondary1: #FFE27D;
+$secondary2: #64E3FF;
+$secondary3: #9092FF;
+
+$special: #B4FF39;
+// ---------------------------------------------
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: $primary2;
+
+$mainColor: $primary1;
+$mainFont: 'JetBrains Mono', monospace;
+$mainFontSize: 1.8em;
+
+$headingFont: 'JetBrains Mono', monospace;
+$headingColor: $primary1;
+$headingTextShadow: none;
+$headingLetterSpacing: 0.03em;
+$headingTextTransform: uppercase;
+
+$heading1TextShadow: none;
+$heading1Size: 2.5em;
+
+$selectionColor: $primary2;
+$selectionBackgroundColor: $secondary3;
+$linkColor: $secondary1;
+$linkColorHover: lighten($linkColor, 20%);
+
+
+// Theme template ------------------------------
+@import "./template/theme";
+// ---------------------------------------------
+
+// Theme specific style
+.reveal {
+    .progress {
+        color: $secondary2;
+        span {
+            background: linear-gradient(90deg, rgba(255,226,125,1) 0%, rgba(100,227,255,1) 50%, rgba(144,146,255,1) 100%);
+        }
+    }
+    .controls {
+        color: $secondary2;
+    }
+
+    .slides {
+        width: 70%;
+    }
+}
+
+.slide-background {
+    background-image: url('../assets/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
