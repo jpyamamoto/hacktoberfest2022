@@ -14,6 +14,12 @@ revealOptions:
 
 <!--s-->
 
+# Diapositivas:
+
+[https://jpyamamoto.github.io/hacktoberfest2022](https://jpyamamoto.github.io/hacktoberfest2022)
+
+<!--s-->
+
 # ¿Qué es Hacktoberfest?
 
 Durante el mes de octubre, celebramos los proyectos de código abierto, y a la comunidad entera de gente que contribuye.
@@ -196,3 +202,11 @@ Todos los lenguajes
 GitHub Campus Expert 🚩
  
 [@jpyamamoto](https://github.com/jpyamamoto) en **GitHub**
+
+<!--s-->
+
+# ¿Comentarios?
+
+Visita el _issue_ **Feedback #1** en:
+
+[https://github.com/jpyamamoto/hacktoberfest2022/](https://jpyamamoto.github.io/hacktoberfest2022)
