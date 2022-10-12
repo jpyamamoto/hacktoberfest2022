@@ -2,7 +2,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Visualiza las _diapositivas_ en línea: [https://jpyamamoto.github.io/hacktoberfest/](https://jpyamamoto.github.io/hacktoberfest/)
+Visualiza las _diapositivas_ en línea: [https://jpyamamoto.github.io/hacktoberfest2022/](https://jpyamamoto.github.io/hacktoberfest2022/)
 
 ## Comentarios
 
