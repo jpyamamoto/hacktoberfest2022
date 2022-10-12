@@ -8,7 +8,7 @@ revealOptions:
   width: 760
 ---
 
-<link rel="stylesheet" href="./_assets/theme/custom.css" id="theme" />
+<link rel="stylesheet" href="./assets/theme/custom.css" id="theme" />
 
 <!-- .slide: data-background="./assets/banner.png" -->
 
